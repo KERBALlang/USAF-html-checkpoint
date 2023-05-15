@@ -1,0 +1,53 @@
+body{
+    display: grid;
+    grid-template: 3fr/2fr;
+    background-color: black;
+    border-spacing: 5px;
+    border-color: white;
+    padding: 5px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: darkslategray;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+}
+
+.buttonlink{
+    display: grid;
+    float: left;
+    align-self: center;
+    background-color: darkslategray;
+    padding: 0 px;
+    border: 0px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+
+.formsearch{
+    display:flex;
+    grid-template-columns: 2;
+    flex-direction: row;
+    align-self: center;
+    background-color: darkslategray;
+    padding: 10 px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+.buttonsearch{
+    display:flex;
+    justify-self: start;
+    background-color: darkslategray;
+    padding: 5 px;
+    border: 2px;
+    border-style: solid;
+    border-color: goldenrod;
+    color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
