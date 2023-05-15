@@ -1,6 +1,4 @@
 body{
-    display: grid;
-    grid-template: 3fr/2fr;
     background-color: black;
     border-spacing: 5px;
     border-color: white;
@@ -15,9 +13,30 @@ nav{
     font-family: 'Times New Roman', Times, serif;
     padding: 0px;
 }
+section{
+    display: grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
+    grid-template-rows: 50% 50% ;
+}
+.altsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around ;
+    padding: 10px;
+}
+a{
+    display: flex;
+    align-self: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
 
 .buttonlink{
-    display: grid;
+    display: flex;
     float: left;
     align-self: center;
     background-color: darkslategray;
@@ -30,14 +49,24 @@ nav{
 
 .formsearch{
     display:flex;
-    grid-template-columns: 2;
     flex-direction: row;
     align-self: center;
+    justify-self: flex-end;
     background-color: darkslategray;
-    padding: 10 px;
+    padding: 0 px;
     color: black;
     font-family: 'Times New Roman', Times, serif;
  
+}
+.formlogin{
+    display:flex;
+    flex-direction: column;
+    padding: 5 px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border: 10;
+    border-radius: 5px;
+    border-style: solid;
 }
 .buttonsearch{
     display:flex;
@@ -50,4 +79,38 @@ nav{
     color: goldenrod;
     font-family: 'Times New Roman', Times, serif;
   
+}
+img{
+    display:grid;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 5px;
+    width: 95%;
+    height: 95%;
+    background-color: blueviolet;
+
+}
+.imgcolumn{
+    grid-column: 1;
+}
+.imgrow{
+    grid-row: 1;
+}
+.imgcolumn2{
+    grid-column: 2;
+}
+.imgrow2{
+    grid-row: 2;
+}
+.imgcolumn3{
+    grid-column: 3;
+}
+.imgrow3{
+    grid-row: 3;
+}
+.imgcolumn4{
+    grid-column: 4;
+}
+.imgcolumn5{
+    grid-column: 5;
 }
