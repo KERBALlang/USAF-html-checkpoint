@@ -25,7 +25,7 @@ section{
     align-content: space-around ;
     padding: 10px;
 }
-a{
+.aalign{
     display: flex;
     align-self: center;
 }
@@ -88,6 +88,11 @@ img{
     width: 95%;
     height: 95%;
     background-color: blueviolet;
+
+}
+.animage{
+    width: 95%;
+    height: 95%;
 
 }
 .imgcolumn{
